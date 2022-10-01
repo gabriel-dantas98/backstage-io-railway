@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ['cmake', 'python3', 'build-essential', 'libsqlite3-dev']
+
+[phases.build]
+cmds = ['make build']
+
+[start]
+cmd = 'make start'
