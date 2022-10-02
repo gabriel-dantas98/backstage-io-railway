@@ -1,7 +1,7 @@
 build:
-	yarn install --frozen-lockfile
+	yarn install
 	yarn tsc
-	yarn --cwd packages/backend build
+	yarn build
 	tar xzf packages/backend/dist/skeleton.tar.gz
 	tar xzf packages/backend/dist/bundle.tar.gz
 
